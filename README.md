@@ -1,9 +1,9 @@
 # bag_of_visual_words
 Image classification using tiny images and bag of visual words using SIFT
 
-In this project, I have done image classification using two approaches, first is a baseline approach of Tiny Image representation in which each image is resized to 16x16 and entire image is used as feature, this is bad model as it discards hig frequency changes and in not invariant to shifts. 
+In this project, I have done image classification using two approaches, first is a baseline approach of Tiny Image representation in which each image is resized to 16x16 and entire image is used as feature, this is bad model as it discards hig frequency changes and in not invariant to shifts.
 
-In second approach, I have computed histogram using bag of SIF features, in which image descriptors are stacked up and clustured using KMeans then histogram in greneated, which is then used as feature for our training model. For training, initially KNN was used, then SVM to inprove aacuracy. 
+In second approach, I have computed histogram using bag of SIFT features, in which image descriptors are stacked up and clustered using KMeans then histogram in generated, which is then used as feature for our training model. For training, initially KNN was used, then SVM to improve accuracy. 
 
 **File structure :**
 
